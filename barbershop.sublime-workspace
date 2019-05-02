@@ -147,7 +147,25 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2542,
+				"buffer_size": 4817,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shop.html",
+			"settings":
+			{
+				"buffer_size": 7713,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "item.html",
+			"settings":
+			{
+				"buffer_size": 3867,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -189,11 +207,13 @@
 	},
 	"expanded_folders":
 	[
-		"/D/HTML и CSS/Barbershop"
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop"
 	],
 	"file_history":
 	[
-		"/D/HTML и CSS/Barbershop/index.html",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/02 Разметка/Демо/#2 Разметка каталога «Барбершопа»/Исходник/index.html",
+		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/index.html",
+		"/D/HTML и CSS/GitHub/Barbershop/904469-barbershop/index.html",
 		"/D/JavaScript/Кексобукинг новый/js/filters.js",
 		"/D/JavaScript/Кексобукинг новый/js/add_image.js",
 		"/D/JavaScript/Кексобукинг новый/js/form.js",
@@ -270,63 +290,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"button",
-			"date",
-			"b",
-			"avatar",
-			"avatarPreview",
-			"ad-form__upload",
-			"files",
-			".ad-form__upload",
-			"ad-form-header__preview",
-			"ad-form__field",
-			".ad-form__field",
-			"Pins",
-			"checked",
-			";",
-			"renderPinElements",
-			"window",
-			"z-i",
-			"add",
-			"onError",
-			"xhr",
-			"onError",
-			"onLoad",
-			"xhr",
-			"form",
-			"window",
-			"form",
-			"adress",
-			"window",
-			"resetform",
-			"submitform",
-			"sendform",
-			"validateform",
-			"isValidform",
-			"activateform",
-			"deactiveteform",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"AdForm",
-			"adForm",
-			"coord",
-			"x",
-			"startPinX",
-			"mapPinMainCoordinates",
-			"mapPinMain",
-			"add"
+			"p",
+			"product",
+			"          <li>\n",
+			"2",
+			"name",
+			"checkbox",
+			"item",
+			"figure",
+			"large",
+			"li",
+			"item",
+			"span"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -344,7 +319,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -353,20 +328,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2542,
+						"buffer_size": 4817,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								361,
-								361
+								0,
+								4817
 							]
 						],
 						"settings":
 						{
-							"SL.31.region_keys":
+							"SL.13.region_keys":
+							[
+							],
+							"SL.14.region_keys":
+							[
+							],
+							"SL.17.region_keys":
 							[
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
@@ -375,6 +356,78 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shop.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								7713
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "item.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2830,
+								2830
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.19.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 642.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
