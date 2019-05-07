@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"form\tTag"
+			],
+			[
 				"a",
 				"a\t<a>"
 			],
@@ -88,10 +92,6 @@
 				"inputs"
 			],
 			[
-				"fo",
-				"form"
-			],
-			[
 				"clo",
 				"closeCard"
 			],
@@ -144,13 +144,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"ru\">\n  <head>\n\t  <meta charset=\"utf-8\">\n\t  <title>Барбершоп \"Бородинский\"</title>\n  </head>\n  <body>\n    <header class=\"main-header\">\n      <nav class=\"main-menu\">\n        <a class=\"main-header-logo\">\n          <img src=\"img/index-logo.svg\" width=\"371\" height=\"155\" alt=\"Логотип барбершопа 'Бородинский'\">\n        </a>\n        <ul class=\"site-menu\">\n          <li><a href=\"inform.html\" title=\"Информация\">Информация</a></li>\n          <li><a href=\"news.html\" title=\"Новости\">Новости</a></li>\n          <li><a href=\"price.html\" title=\"Прайс-лист\">Прайс-лист</a></li>\n          <li><a href=\"shop.html\" title=\"Магазин\">Магазин</a></li>\n          <li><a href=\"contacts.html\" title=\"Контакты\">Контакты</a></li>\n        </ul>\n        <ul class=\"user-menu\">\n          <li class=\"login-link\"><a>Вход</a></li>\n        </ul>\n      </nav>\n    </header>\n    <main class=\"container\">\n      \n      <h1 class=\"visually-hidden\">Барбершоп \"Бородинский\" Barbershop \"Borodinsky\"</h1>\n      \n      <section class=\"features\">\n        <h2 class=\"visually-hidden\">Услуги</h2>\n        <ul class=features-list>\n          <li class=\"feature-item\">\n            <h3>Быстро</h3>\n            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>\n          </li>\n          <li class=\"feature-item\">\n            <h3>Круто</h3>\n            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино!</p>\n          </li>\n          <li class=\"feature-item\">\n            <h3>Дорого</h3>\n            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>\n          </li>\n        </ul>\n      </section>\n\n      <section class=\"news\">\n        <h2>Новости</h2>\n        <ul class=\"news-list\">\n          <li class=\"news-item\">\n            <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>\n            <time datetime=\"2019-04-22\">22 апреля</time>\n          </li>\n          <li class=\"news-item\">\n            <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>\n            <time datetime=\"2019-04-26\">26 апреля</time>\n          </li>\n        </ul>\n        <a class=\"button\" href=\"news.html\" title=\"Все новости\">Все новости</a>          \n      </section>\n\n      <section class=\"gallery\">\n        <h2>Фотогалерея</h2>\n        <figure class=\"gallery-item\">\n          <a href=\"#\">\n            <img src=\"img/interier.jpg\" width=\"286\" height=\"164\" alt=\"Фотография интерьера\">\n          </a>\n        </figure>\n        <span class=\"button gallery-button gallery-button-previous\">Назад</span>\n        <span class=\"button gallery-button gallery-button-next\">Вперед</span>\n      </section>\n\n      <section class=\"contacts\">\n      \t<h2>Контактная информация</h2>\n      \t<p>\n          Барбершоп «Бородинский»<br>\n    \t\t\tАдрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>\n    \t\t\tТелефон: +7 (495) 666-02-66\n\t\t    </p>\n\t\t    <p>\n          Время работы:<br>\n\t\t      пн—пт: с 10:00 до 22:00<br>\n          сб—вс: с 10:00 до 19:00\n        </p>\n\t\t    <a class=\"button contacts-button path\" href=\"map.html\">Как проехать</a>\n\t\t    <a class=\"button contacts-button callback\" href=\"contacts.html\">Обратная связь</a>\n      </section>\n\n      <section class=\"appointment\">\n        <h2>Записаться</h2>\n        <p class=\"appointment-info\">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>\n        <!-- Форма для записи -->\n      </section>\n    </main>\n\n    <footer class=\"main-footer\">\n      <p class=\"footer-contacts\">\n        Барбершоп «Бородинский»<br>\n        Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>\n        <a href=\"map.html\">Как нас найти?</a><br>\n        Телефон: +7 (495) 666-02-66\n      </p>\n      <div class=\"social\">\n        <b>Давайте дружить</b>\n        <ul>\n          <li><a class=\"social-button\" href=\"vk.com\"></a></li>\n          <li><a class=\"social-button\" href=\"facebook.com\"></a></li>\n          <li><a class=\"social-button\" href=\"instagramm.com\"></a></li>\n        </ul>\n      </div>\n      <p class=\"footer-copyright\">\n        <b>Разработано:</b>\n        <a class=\"button button-copyright\" href=\"https://htmlacademy.ru\">HTMLAcademy</a>\n      </p>\n    </footer>\n\n    <section class=\"modal modal-login visually-hidden\">\n      <h2>Личный кабинет</h2>\n      <p>Введите пожалуйста свой логин и пароль</p>\n      <!-- Место для формы входа/регистрации -->\n      <span class=\"modal-close\">x</span>\n    </section>\n\n    <section class=\"modal modal-map visually-hidden\">\n      <h2 class=\"visually-hidden\">Как до нас добраться</h2>\n      <img src=\"img/map_small.jpg\" width=\"766\" height=\"560\" alt=\"Карта как до нас добраться\">\n      <span class=\"modal-close\">x</span>\n    </section>\n  </body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 6123,
-			"file_write_time": 132012945375530736,
 			"settings":
 			{
-				"buffer_size": 4880,
+				"buffer_size": 8576,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -159,7 +156,7 @@
 			"file": "shop.html",
 			"settings":
 			{
-				"buffer_size": 7980,
+				"buffer_size": 11298,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -168,7 +165,7 @@
 			"file": "item.html",
 			"settings":
 			{
-				"buffer_size": 4053,
+				"buffer_size": 5724,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -215,6 +212,8 @@
 	],
 	"file_history":
 	[
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/04 Доступность/Демо/Доступная разметка страниц «Барбершопа»/Исходник/index.html",
+		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/04 Доступность/Демо/Доступная разметка главной «Барбершопа»/Исходник/index.html",
 		"/E/HTML Academy/Интенсивы HTML Academy/[HTML Academy] Профессиональный HTML и CSS Уровень 1/02 Разметка/Демо/#2 Разметка каталога «Барбершопа»/Исходник/index.html",
 		"/D/HTML и CSS/GitHub/Barbershop/Barbershop/index.html",
 		"/D/HTML и CSS/GitHub/Barbershop/904469-barbershop/index.html",
@@ -280,7 +279,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -294,6 +293,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</input>",
+			"list",
+			"class=\"production-list-item\"",
+			"</input",
+			"bread",
+			"\n      ",
+			"button",
+			"name",
+			"time",
+			"date",
+			"span",
 			"460",
 			"big",
 			"src=\"\"",
@@ -326,7 +336,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -335,15 +345,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4880,
+						"buffer_size": 8576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3065,
-								3065
+								8124,
+								8124
 							]
 						],
 						"settings":
@@ -365,10 +375,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -377,15 +387,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7980,
+						"buffer_size": 11298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7527,
-								7527
+								1287,
+								1287
 							]
 						],
 						"settings":
@@ -404,10 +414,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2160.0,
+						"translation.y": 5280.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -416,15 +426,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4053,
+						"buffer_size": 5724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3113,
-								3113
+								123,
+								123
 							]
 						],
 						"settings":
@@ -443,10 +453,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1242.0,
+						"translation.y": 2130.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -454,7 +464,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -503,7 +513,7 @@
 	"project": "barbershop.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -540,7 +550,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 184.0,
 	"status_bar_visible": true,
 	"template_settings":
