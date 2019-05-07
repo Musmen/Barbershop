@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
 	  <meta charset="utf-8">
 	  <title>Барбершоп "Бородинский"</title>
   </head>
+  
   <body>
     <header class="main-header">
       <nav class="main-menu">
@@ -11,14 +13,26 @@
           <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа 'Бородинский'">
         </a>
         <ul class="site-menu">
-          <li><a href="inform.html" title="Информация">Информация</a></li>
-          <li><a href="news.html" title="Новости">Новости</a></li>
-          <li><a href="price.html" title="Прайс-лист">Прайс-лист</a></li>
-          <li class="site-navigation-current"><a href="shop.html" title="Магазин">Магазин</a></li>
-          <li><a href="contacts.html" title="Контакты">Контакты</a></li>
+          <li>
+            <a href="inform.html" title="Информация">Информация</a>
+          </li>
+          <li>
+            <a href="news.html" title="Новости">Новости</a>
+          </li>
+          <li>
+            <a href="price.html" title="Прайс-лист">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="shop.html" title="Магазин">Магазин</a>
+          </li>
+          <li>
+            <a href="contacts.html" title="Контакты">Контакты</a>
+          </li>
         </ul>
         <ul class="user-menu">
-          <li class="login-link"><a>Вход</a></li>
+          <li class="user-menu-item">
+            <a class="login-link" href="login.html" title="Вход">Вход</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -49,16 +63,13 @@
         <h2 class="visually-hidden">Описание товара</h2>
         <p class="product-availability">Есть в наличии</p>
         <p class="product-articul"> Артикул: dexter-ae</p>
-        
         <p class="product-text-description">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-  
         <p class="product-price">
           <b class="price">2900₽</b>
           <a class="button" href="#">Купить</a>
         </p>
-
         <h3>В набор входят:</h3>
-        <ul class="product-consistof-list">
+        <ul class="product-consistOf-list">
           <li>Средство для умывания (50 мл)</li>
           <li>Увлажняющий крем (50 мл)</li>
           <li>Крем для бритья (50 мл)</li>
@@ -75,25 +86,47 @@
         <a href="map.html">Как нас найти?</a><br>
         Телефон: +7 (495) 666-02-66
       </p>
-      <div class="social">
+      <div class="footer-social">
         <b>Давайте дружить</b>
-        <ul>
-          <li><a class="social-button" href="vk.com"></a></li>
-          <li><a class="social-button" href="facebook.com"></a></li>
-          <li><a class="social-button" href="instagramm.com"></a></li>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a class="button social-button" href="http://vk.com" aria-label="ВКонтакте"></a>
+          </li>
+          <li class="social-list-item">
+            <a class="button social-button" href="http://facebook.com" aria-label="Фейсбук"></a>
+          </li>
+          <li class="social-list-item">
+            <a class="button social-button" href="http://instagramm.com" aria-label="Инстаграм"></a>
+          </li>
         </ul>
       </div>
       <p class="footer-copyright">
         <b>Разработано:</b>
-        <a class="button button-copyright" href="https://htmlacademy.ru">HTMLAcademy</a>
+        <a class="button button-copyright" href="https://htmlacademy.ru">Сайт разработчика: "HTMLAcademy"</a>
       </p>
     </footer>
 
     <section class="modal modal-login visually-hidden">
       <h2>Личный кабинет</h2>
       <p>Введите пожалуйста свой логин и пароль</p>
-      <!-- Место для формы входа/регистрации -->
-      <span class="modal-close">x</span>
+      <form class="login-form" method="post" action="http:\\echo.htmlacademy.ru">
+        <p class="login-form-item login-form-item-name">
+          <label class="login-form-name-label visually-hidden" for="login-form-nameField">Логин</label>
+          <input class="login-form-name-field" id="login-form-nameField" type="text" placeholder="Логин">
+        </p>
+        <p class="login-form-item login-form-item-password">
+          <label class="login-form-password-label visually-hidden" for="login-form-passwordField">Пароль</label>
+          <input class="login-form-password-field" id="login-form-passwordField" type="password" placeholder="Пароль">
+        </p>
+        <p class="login-form-item login-form-item-remember">
+          <label class="login-form-remember-label" for="login-form-rememberField">Запомните меня</label>
+          <input class="login-form-remember-field visually-hidden" id="login-form-rememberField" type="checkbox" checked>
+          <span class="login-form-placeholder login-form-placeholder-remember"></span>
+        </p>
+        <a class="link login-form-restore" href="#">Я забыл пароль!</a>
+        <button class="button login-form-button" type="submit">Войти</button>
+      </form>
+      <button class="button modal-close-button" type="button">Закрыть</button>
     </section>
 
   </body>
