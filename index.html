@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
 	  <meta charset="utf-8">
 	  <title>Барбершоп "Бородинский"</title>
   </head>
+
   <body>
+
     <header class="main-header">
       <nav class="main-menu">
         <a class="main-header-logo">
           <img src="img/index-logo.svg" width="371" height="155" alt="Логотип барбершопа 'Бородинский'">
         </a>
         <ul class="site-menu">
-          <li><a href="inform.html" title="Информация">Информация</a></li>
-          <li><a href="news.html" title="Новости">Новости</a></li>
-          <li><a href="price.html" title="Прайс-лист">Прайс-лист</a></li>
-          <li><a href="shop.html" title="Магазин">Магазин</a></li>
-          <li><a href="contacts.html" title="Контакты">Контакты</a></li>
+          <li>
+            <a href="inform.html" title="Информация">Информация</a>
+          </li>
+          <li>
+            <a href="news.html" title="Новости">Новости</a>
+          </li>
+          <li>
+            <a href="price.html" title="Прайс-лист">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="shop.html" title="Магазин">Магазин</a>
+          </li>
+          <li>
+            <a href="contacts.html" title="Контакты">Контакты</a>
+          </li>
         </ul>
         <ul class="user-menu">
-          <li class="login-link"><a>Вход</a></li>
+          <li class="user-menu-item">
+            <a class="login-link" href="login.html" title="Вход">Вход</a>
+          </li>
         </ul>
       </nav>
     </header>
+
     <main class="container">
-      
-      <h1 class="visually-hidden">Барбершоп "Бородинский" Barbershop "Borodinsky"</h1>
+      <h1 class="visually-hidden">Барбершоп "Бородинский", Barbershop "Borodinsky"</h1>
       
       <section class="features">
-        <h2 class="visually-hidden">Услуги</h2>
-        <ul class=features-list>
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="features-list">
           <li class="feature-item">
             <h3>Быстро</h3>
             <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
@@ -61,13 +76,13 @@
 
       <section class="gallery">
         <h2>Фотогалерея</h2>
-        <figure class="gallery-item">
-          <a href="#">
-            <img src="img/interier.jpg" width="286" height="164" alt="Фотография интерьера">
+        <figure class="gallery-content">
+          <a class="gallery-item" href="#">
+            <img src="img/interier.jpg" width="286" height="164" alt="Фотография интерьера барбершопа 'Бородинский'">
           </a>
         </figure>
-        <span class="button gallery-button gallery-button-previous">Назад</span>
-        <span class="button gallery-button gallery-button-next">Вперед</span>
+        <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+        <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
       </section>
 
       <section class="contacts">
@@ -82,14 +97,43 @@
 		      пн—пт: с 10:00 до 22:00<br>
           сб—вс: с 10:00 до 19:00
         </p>
-		    <a href="map.html" class="button contacts-button path">Как проехать</a>
-		    <a href="contacts.html" class="button contacts-button callback">Обратная связь</a>
+		    <a class="button contacts-button contacts-button-map" href="map.html">Как проехать</a>
+		    <a class="button contacts-button contacts-button-contacts" href="contacts.html">Обратная связь</a>
       </section>
 
       <section class="appointment">
         <h2>Записаться</h2>
         <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения</p>
-        <!-- Форма для записи -->
+        <form class="appointment-form" method="post" action="http://echo.htmlacademy.ru">
+          <p class="appointment-form-item">
+            <label class="appointment-form-label appointment-form-label-date" for="appointment-form-dateField">
+              Дата
+            </label>
+            <input class="appointment-form-input appointment-form-input-date" id="appointment-form-dateField" type="text" name="appointment-form-date" placeholder="08.10.2017" value="">
+          </p>
+          
+          <p class="appointment-form-item">
+            <label class="appointment-form-label appointment-form-label-time" for="appointment-form-timeField">
+              Время
+            </label>
+            <input class="appointment-form-input appointment-form-input-time" id="appointment-form-timeField" type="text" name="appointment-form-time" placeholder="10:00" value="">
+          </p>
+
+          <p class="appointment-form-item">
+            <label class="appointment-form-label appointment-form-label-name" for="appointment-form-nameField">
+              Ваше имя
+            </label>
+            <input class="appointment-form-input appointment-form-input-name" id="appointment-form-nameField" type="text" name="appointment-form-name" placeholder="Борода" value="">
+          </p>
+
+          <p class="appointment-form-item">
+            <label class="appointment-form-label appointment-form-label-phone" for="appointment-form-phoneField">
+              Телефон
+            </label>
+            <input class="appointment-form-input appointment-form-input-phone" id="appointment-form-phoneField" type="tel" name="appointment-form-phone" placeholder="+7 123 456-78-90" value="">
+          </p>
+          <button class="button appointment-form-button" type="submit">Отправить</button>
+        </form>
       </section>
     </main>
 
@@ -100,31 +144,56 @@
         <a href="map.html">Как нас найти?</a><br>
         Телефон: +7 (495) 666-02-66
       </p>
-      <div class="social">
+      <div class="footer-social">
         <b>Давайте дружить</b>
-        <ul>
-          <li><a class="social-button" href="vk.com"></a></li>
-          <li><a class="social-button" href="facebook.com"></a></li>
-          <li><a class="social-button" href="instagramm.com"></a></li>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a class="button social-button" href="http://vk.com" aria-label="ВКонтакте"></a>
+          </li>
+          <li class="social-list-item">
+            <a class="button social-button" href="http://facebook.com" aria-label="Фейсбук"></a>
+          </li>
+          <li class="social-list-item">
+            <a class="button social-button" href="http://instagramm.com" aria-label="Инстаграм"></a>
+          </li>
         </ul>
       </div>
       <p class="footer-copyright">
         <b>Разработано:</b>
-        <a class="button button-copyright" href="https://htmlacademy.ru">HTMLAcademy</a>
+        <a class="button button-copyright" href="https://htmlacademy.ru">Сайт разработчика: "HTMLAcademy"</a>
       </p>
     </footer>
 
     <section class="modal modal-login visually-hidden">
       <h2>Личный кабинет</h2>
       <p>Введите пожалуйста свой логин и пароль</p>
-      <!-- Место для формы входа/регистрации -->
-      <span class="modal-close">x</span>
+      <form class="login-form" method="post" action="http:\\echo.htmlacademy.ru">
+        <p class="login-form-item login-form-item-name">
+          <label class="login-form-name-label visually-hidden" for="login-form-nameField">Логин</label>
+          <input class="login-form-name-field" id="login-form-nameField" type="text">
+          <span class="login-form-placeholder login-form-placeholder-name">Логин</span>
+        </p>
+        <p class="login-form-item login-form-item-password">
+          <label class="login-form-password-label visually-hidden" for="login-form-passwordField">Пароль</label>
+          <input class="login-form-password-field" id="login-form-passwordField" type="password">
+          <span class="login-form-placeholder login-form-placeholder-password">Пароль</span>
+        </p>
+        <p class="login-form-item login-form-item-remember">
+          <label class="login-form-remember-label visually-hidden" for="login-form-rememberField">Запомните меня</label>
+          <input class="login-form-remember-field" id="login-form-rememberField" type="checkbox" checked>
+          <span class="login-form-placeholder login-form-placeholder-remember">Запомните меня</span>
+        </p>
+        <a class="link login-form-restore" href="#">Я забыл пароль!</a>
+      </form>
+      <button class="button login-form-button" type="submit">Войти</button>
+      <button class="button modal-close-button" type="button">Закрыть</button>
     </section>
 
     <section class="modal modal-map visually-hidden">
       <h2 class="visually-hidden">Как до нас добраться</h2>
-      <img src="img/map_small.jpg" width="766" height="560" alt="Карта как до нас добраться">
-      <span class="modal-close">x</span>
+      <img src="img/map_small.jpg" width="766" height="560" alt="Адрес барбершоп «Бородинский»:
+      г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+      <button class="button modal-close-button" type="button">Закрыть</button>
     </section>
   </body>
 </html>
