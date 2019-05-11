@@ -293,6 +293,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\",
 			"</input>",
 			"list",
 			"class=\"production-list-item\"",
@@ -352,8 +353,8 @@
 						"selection":
 						[
 							[
-								8124,
-								8124
+								7507,
+								7507
 							]
 						],
 						"settings":
@@ -370,12 +371,15 @@
 							"SL.18.region_keys":
 							[
 							],
+							"SL.27.region_keys":
+							[
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2270.0,
+						"translation.y": 3230.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -394,8 +398,8 @@
 						"selection":
 						[
 							[
-								1287,
-								1287
+								10274,
+								10274
 							]
 						],
 						"settings":
@@ -409,15 +413,18 @@
 							"SL.19.region_keys":
 							[
 							],
+							"SL.28.region_keys":
+							[
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5280.0,
+						"translation.y": 5150.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -433,8 +440,8 @@
 						"selection":
 						[
 							[
-								123,
-								123
+								4884,
+								4884
 							]
 						],
 						"settings":
@@ -448,15 +455,18 @@
 							"SL.20.region_keys":
 							[
 							],
+							"SL.29.region_keys":
+							[
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2130.0,
+						"translation.y": 2010.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
