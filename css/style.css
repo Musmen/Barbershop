@@ -2,11 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
 	font-size: 14px;
   line-height: 24px;
-  font-family: 'PT Sans Narrow', Arial, sans-serif;
-  font-weight: bold;
-	color: #f7f4f1;
+  font-weight: 700;
+	color: white;
   text-transform: uppercase;
 
 	background-color: black;
@@ -17,21 +17,26 @@ body {
   text-align: center;
 }*/
 
-.main-header ul {
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.site-menu,
+.user-menu {
   font-size: 16px;
   line-height: 20px;
 
   list-style: none;
 }
 
-a {
-  color: inherit;
-
-  text-decoration: none;
-}
-
-.main-menu li:hover {
+.site-menu a:hover,
+.site-menu a:focus,
+.user-menu a:hover,
+.user-menu a:focus {
   background-color: #242424;
+  outline: none;
 }
 
 .site-menu .current {
@@ -41,17 +46,16 @@ a {
 }
 
 main.container {
-  /*background-color: black;*/
   background-image: url('../img/background-image.jpg');
   background-position: center top;
   background-repeat: no-repeat;
 }
 
-.container ul {
+.features-list {
   list-style: none;
 }
 
-.container h3,
+.feature-item h3,
 .main-column h2,
 .modal h2 {
   font-size: 30px;
@@ -75,6 +79,8 @@ main.container {
 }
 
 .button {
+  text-align: center;
+  vertical-align: middle;
   color: #f7f4f1; 
 
   background-color: black;
@@ -96,7 +102,6 @@ button.button {
 
 .gallery-item,
 .modal-map img {
-  background-color: white;  
   outline-color: white;
   outline-style: solid;
   outline-width: 7px;
@@ -106,7 +111,7 @@ button.button {
 .modal input {
   font: inherit;
 
-  background-color: #f9f6f3;
+  background-color: transparent;
   border: none;
   outline-color: #000101;
   outline-style: solid;
@@ -127,14 +132,45 @@ button.button {
   text-decoration: underline;
 }
 
+.footer-contacts a:hover,
+.footer-contacts a:active,
+.footer-contacts a:focus
+ {
+  text-decoration: none;
+  outline-color: white;
+}
+
+.footer-social,
+.footer-copyright {
+  text-align: center;
+}
+
 .social-list-item {
   list-style: none;
 }
 
-a.login-form-restore {
+.social-button:hover,
+.social-button:focus,
+.social-button:active,
+.button-copyright:hover,
+.button-copyright:focus,
+.button-copyright:active {
+  color: black;
+
+  background-color: white;
+}
+
+.login-form-restore {
   text-decoration: underline;
   text-decoration-color: #bab7b5;
 }
+
+.login-form-restore:hover,
+.login-form-restore:focus,
+.login-form-restore:active {
+  text-decoration: none;
+  outline-color: #bab7b5;
+} 
 
 .login-form-remember-field {
   background-image: url('../img/cross.svg');
@@ -146,10 +182,9 @@ a.login-form-restore {
   color: #663d15;
 }
 
-/*.modal {
-  box-shadow: 2px solid red;
+.modal input {
+  background-color: #f9f6f3;
 }
-*/
 
 .modal-close-button {
   color: #d0d0d0;
@@ -164,5 +199,5 @@ a.login-form-restore {
 .modal-close-button:hover,
 .modal-close-button:active,
 .modal-close-button:focus {
-  outline: none;
+  outline-color: #d0d0d0;
 }
