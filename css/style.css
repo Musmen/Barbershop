@@ -10,12 +10,23 @@ body {
   text-transform: uppercase;
 
 	background-color: black;
+  background-image: url('../img/background-image.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
-/*.main-header-logo a {
-  margin: 0 auto;
-  text-align: center;
-}*/
+.inner-page {
+  color: black;
+
+  background-color: #f8f5f2;
+  background-image: url('../img/bg_square.jpg');
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.main-header {
+  background-color: black;
+}
 
 a {
   text-decoration: none;
@@ -45,12 +56,6 @@ a {
   border-bottom-size: 4px; 
 }
 
-main.container {
-  background-image: url('../img/background-image.jpg');
-  background-position: center top;
-  background-repeat: no-repeat;
-}
-
 .features-list {
   list-style: none;
 }
@@ -72,6 +77,8 @@ main.container {
 
   background-color: #f8f5f2;
   background-image: url('../img/bg_square.jpg');
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
 .news time {
@@ -112,20 +119,22 @@ button.button {
   font: inherit;
 
   background-color: transparent;
-  border: none;
-  outline-color: #000101;
-  outline-style: solid;
-  outline-width: 2px;
+  border-color: #000101;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .appointment-form-item input:focus,
 .modal input:focus {
-  outline-color: #663d15;
+  border-color: #663d15;
+  outline-width: 0;
 }
 
 .main-footer {
   background-color: #232323;
   background-image: url('../img/bg_square_dark.jpg');
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
 .footer-contacts a {
@@ -134,10 +143,9 @@ button.button {
 
 .footer-contacts a:hover,
 .footer-contacts a:active,
-.footer-contacts a:focus
- {
+.footer-contacts a:focus {
   text-decoration: none;
-  outline-color: white;
+  border-color: white;
 }
 
 .footer-social,
@@ -169,7 +177,7 @@ button.button {
 .login-form-restore:focus,
 .login-form-restore:active {
   text-decoration: none;
-  outline-color: #bab7b5;
+  border-color: #bab7b5;
 } 
 
 .login-form-remember-field {
@@ -182,9 +190,25 @@ button.button {
   color: #663d15;
 }
 
-.modal input {
-  background-color: #f9f6f3;
+.login-form-item-remember input {
+  outline-color: #000101;
+  outline-style: solid;
+  outline-width: 2px;
 }
+
+.login-form-item-remember input:hover,
+.login-form-item-remember input:focus,
+.login-form-item-remember input:active {
+  color: black;
+  
+  outline-color: #000101;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+/*.modal input {
+  background-color: #f9f6f3;
+}*/
 
 .modal-close-button {
   color: #d0d0d0;
@@ -200,4 +224,43 @@ button.button {
 .modal-close-button:active,
 .modal-close-button:focus {
   outline-color: #d0d0d0;
+}
+
+.inner-page .main-header {
+  color: white;
+}
+
+.inner-page h1 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 20px;
+
+  list-style: none;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+
+.breadcrumbs-current {
+  color: #aba9a7;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filters ul {
+  list-style: none;
+  line-height: 18px;
 }
