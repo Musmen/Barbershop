@@ -60,38 +60,39 @@
             <legend>Производители:</legend>
             <ul class="production-list">
               <li class="production-item">
-                <label class="production-item-label">
-                  <input class="production-checkbox visually-hidden" type="checkbox" name="production-BaxterOfCalifornia" checked>
+                <input class="production-checkbox visually-hidden" type="checkbox" name="production-BaxterOfCalifornia" id="checkbox-BaxterOfCalifornia" checked>
+                <label class="production-item-label" for="checkbox-BaxterOfCalifornia">
                   Baxter of California
                 </label>
               </li>
-              <li>
-                <label class="production-item-label">
-                  <input class="production-checkbox visually-hidden" type="checkbox" name="production-MrNatty">
+              <li class="production-item">
+                <input class="production-checkbox visually-hidden" type="checkbox" name="production-MrNatty" id="checkbox-MrNatty">
+                <label class="production-item-label" for="checkbox-MrNatty">
                   Mr Natty
                 </label>
               </li>
-              <li>
-                <label class="production-item-label">
-                  <input class="production-checkbox visually-hidden" type="checkbox" name="production-Suavecito" checked>
+              <li class="production-item">
+                <input class="production-checkbox visually-hidden" type="checkbox" name="production-Suavecito" id="checkbox-Suavecito" checked>
+                <label class="production-item-label" for="checkbox-Suavecito">
                   Suavecito
                 </label>
               </li>
-              <li>
-                <label class="production-item-label">
-                  <input class="production-checkbox visually-hidden" type="checkbox" name="production-MalinGoetz">
+              <li class="production-item">
+                <input class="production-checkbox visually-hidden" type="checkbox" name="production-MalinGoetz" id="checkbox-MalinGoetz">
+                <label class="production-item-label" for="checkbox-MalinGoetz">
                   Malin + Goetz
                 </label>
               </li>
-              <li>
-                <label class="production-item-label">
-                  <input class="production-checkbox visually-hidden" type="checkbox" name="production-Myrrays">
+              <li class="production-item">
+                <input class="production-checkbox visually-hidden" type="checkbox" name="production-Myrrays" id="checkbox-Myrrays" disabled>
+                <label class="production-item-label" for="checkbox-Myrrays">
                   Myrray's
                 </label>
-              </li>
-              <li>
-                <label class="production-item-label">
-                  <input class="production-checkbox visually-hidden" type="checkbox" name="production-AmericanCrew" checked>American Crew
+              </li>            
+              <li class="production-item">
+                <input class="production-checkbox visually-hidden" type="checkbox" name="production-AmericanCrew" id="checkbox-AmericanCrew" checked>
+                <label class="production-item-label" for="checkbox-AmericanCrew">
+                  American Crew
                 </label>
               </li>
             </ul>
@@ -100,20 +101,20 @@
             <legend>Группы товаров:</legend>
             <ul class="product-group-list">
               <li class="product-group-item">
-                <label class="product-group-item-label">
-                  <input type="radio" name="product-group" value="shaving">
+                <input class="product-group-item-input" type="radio" name="product-group" value="shaving" id="radio-Shaving">
+                <label class="product-group-item-label" for="radio-Shaving">
                   Бритвенные принадлежности
                 </label>
               </li>
               <li class="product-group-item">
-                <label class="product-group-item-label">
-                  <input type="radio" name="product-group" value="shaving" checked>
+                <input class="product-group-item-input" type="radio" name="product-group" value="care" id="radio-Care" checked>
+                <label class="product-group-item-label" for="radio-Care">
                   Средства для ухода
                 </label>
               </li>
               <li class="product-group-item">
-                <label class="product-group-item-label">
-                  <input type="radio" name="product-group" value="meansForCare">
+                <input class="product-group-item-input" type="radio" name="product-group" value="accessories" id="radio-Accessories">
+                <label class="product-group-item-label" for="radio-Accessories">
                   Аксессуары
                 </label>
               </li>
@@ -246,19 +247,19 @@
         <b>Давайте дружить</b>
         <ul class="social-list">
           <li class="social-list-item">
-            <a class="button social-button" href="http://vk.com" aria-label="ВКонтакте"></a>
+            <a class="button social-button" href="http://vk.com" aria-label="ВКонтакте">ВКонтакте</a>
           </li>
           <li class="social-list-item">
-            <a class="button social-button" href="http://facebook.com" aria-label="Фейсбук"></a>
+            <a class="button social-button" href="http://facebook.com" aria-label="Фейсбук">Фейсбук</a>
           </li>
           <li class="social-list-item">
-            <a class="button social-button" href="http://instagramm.com" aria-label="Инстаграм"></a>
+            <a class="button social-button" href="http://instagramm.com" aria-label="Инстаграм">Инстаграм</a>
           </li>
         </ul>
       </div>
       <p class="footer-copyright">
         <b>Разработано:</b>
-        <a class="button button-copyright" href="https://htmlacademy.ru">Сайт разработчика: "HTMLAcademy"</a>
+        <a class="button button-copyright" href="https://htmlacademy.ru" title="Сайт разработчика: 'HTML Academy'">HTML Academy</a>
       </p>
     </footer>
 
