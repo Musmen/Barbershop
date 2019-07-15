@@ -347,13 +347,15 @@ a {
 }
 
 .paginaton-item a:hover,
-.paginaton-item a:focus {
+.paginaton-item a:focus,
+.paginaton-item a:active {
   background-color: #663d15;
 }
 
 .paginaton-item-current a,
 .paginaton-item-current a:hover,
-.paginaton-item-current a:focus {
+.paginaton-item-current a:focus,
+.paginaton-item-current a:active {
   color: black;
 
   background-color: white;
@@ -397,6 +399,6 @@ a {
   list-style: none;
 }
 
-.inner-page .main {
+/*.inner-page .main {
   box-shadow: 0 0 10px rgba(100, 100, 100, 0.5);
-}
+}*/
