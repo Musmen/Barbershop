@@ -15,6 +15,12 @@ body {
   background-repeat: no-repeat;
 }
 
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
 .inner-page {
   color: black;
 
@@ -22,16 +28,6 @@ body {
   background-image: url('../img/bg_square.jpg');
   background-position: 0 0;
   background-repeat: repeat;
-}
-
-.main-header {
-  outline: 3px dashed green; 
-}
-
-a {
-  text-decoration: none;
-
-  color: inherit;
 }
 
 .main-menu {
@@ -103,9 +99,9 @@ a {
   margin: 0 auto;
 }
 
-.container .visually-hidden { /*----------------------По итогу пересмотреть------------------------------*/
+/*.container .visually-hidden { ----------------------По итогу пересмотреть------------------------------
   display: none;
-}
+}*/
 
 .features {
   margin: 0;
@@ -147,18 +143,18 @@ a {
 
 .main-column {
   display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
 }
 
 .main-column .news,
 .main-column .contacts {
   width: 380px;
-  padding-left: 80px;
 }
 
 .main-column .gallery,
 .main-column .appointment {
   width: 300px;
-  padding-left: 100px;
 }
 
 .news-list {
@@ -168,8 +164,13 @@ a {
   list-style: none;
 }
 
+/*.gallery .gallery-content {  Для закомментированного тега figure в index.html
+  margin: 0;
+  padding: 0;
+}*/
+
 .main-column:first-of-type {
-  margin-bottom: 36px;
+  margin-bottom: 35px;
 }
 
 .modal-login {
@@ -232,6 +233,8 @@ a {
 
 .main-footer {
   margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 45px;
 
   background-color: #232323;
   background-image: url('../img/bg_square_dark.jpg');
@@ -247,15 +250,21 @@ a {
 
 .main-footer .footer-contacts {
   width: 380px;
+  margin: 0;
+  padding: 0;
 }
 
 .main-footer .footer-social {
   width: 140px;
+  margin: 0;
+  padding: 0;
 }
 
 .main-footer .footer-copyright {
   width: 140px;
-  padding-left: 260px
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
 }
 
 .footer-contacts a {
