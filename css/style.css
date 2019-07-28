@@ -30,18 +30,43 @@ a {
   background-repeat: repeat;
 }
 
+.inner-page .main-header {
+  margin-bottom: 55px;
+  background-color: black;
+}
+
 .main-menu {
   display: flex;
   flex-direction: column;
 }
 
+.inner-page .main-menu {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .main-header-logo {
+  order: 2;
+  align-self: center;
   width: 371px;
   height: 155px;
   margin-bottom: 55px;
+}
 
-  order: 2;
-  align-self: center;
+.inner-page .main-header-logo {
+  order: unset;
+  align-self: auto;
+  width: 111px;
+  height: 24px;
+  margin: 0;
+  /*margin-left: 150px;*/
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 29px; 
 }
 
 .menu-wrapper {
@@ -52,11 +77,11 @@ a {
 }
 
 .main-menu .flex-container {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
   display: flex;
   justify-content: space-between;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .site-menu {
@@ -65,10 +90,20 @@ a {
   margin: 0 auto;
 }
 
+.inner-page .site-menu {
+  margin: 0;
+}
+
 .user-menu {
   width: 220px;
   padding: 0;
   margin: 0 auto;
+}
+
+.inner-page .user-menu {
+  width: 140px;
+  margin: 0;
+  margin-left: auto;
 }
 
 .site-menu,
@@ -97,6 +132,10 @@ a {
 .container {
   width: 940px;
   margin: 0 auto;
+}
+
+.inner-page .container {
+  width: 1200px;
 }
 
 /*.container .visually-hidden { ----------------------По итогу пересмотреть------------------------------
@@ -246,6 +285,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .main-footer .footer-contacts {
@@ -257,6 +297,7 @@ a {
 .main-footer .footer-social {
   width: 140px;
   margin: 0;
+  margin-left: 20px;
   padding: 0;
 }
 
