@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"otline",
+				"outline\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
 				"sp",
 				"space-between\tjustify-content"
 			],
@@ -14,10 +42,6 @@
 			[
 				"background-c",
 				"background-color\tproperty"
-			],
-			[
-				"marg",
-				"margin-bottom\tproperty"
 			],
 			[
 				"s",
@@ -259,7 +283,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9289,
+				"buffer_size": 9402,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -286,7 +310,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 7086,
+				"buffer_size": 8299,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -414,6 +438,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"figu",
+			"gallery",
+			"contai",
+			".main-column",
 			"BaxterOfCalifornia",
 			"h1",
 			"border",
@@ -474,15 +502,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9289,
+						"buffer_size": 9402,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1520,
-								1520
+								6493,
+								6493
 							]
 						],
 						"settings":
@@ -510,7 +538,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 250.0,
+						"translation.y": 3060.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -612,19 +640,68 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7086,
+						"buffer_size": 8299,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								797,
-								797
+								340,
+								340
 							]
 						],
 						"settings":
 						{
+							"SL.16.region_keys":
+							[
+								"SL.csslint.Highlights.|28ee703c5a9654aee45d270a63c4f961145a657fe5f025ef33ca20d0fe004b9d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|797fa1e7adea7ebccda770327fb6cea0d34ac2aa37400fa5c6495b29b22a40a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|94640e503d3962d1d1e139e94eed651a434593a2176163e920fe05c707a928b8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1428ccbe2b3a5ec92a60dcb0829882de2e33ec554e22de0f07ffc2895eabbc5f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5b4b09eeb8531ca38c5cbceb3e26ef35c1725d891d2a56fd9084c9ff78b112a4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee95a5b236c6219bab1b3b82dd7a1eac96997dbe948a1d25b9aba0a380ff7ce2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3d6dbe01c5958ff91f621bf10ab5de6086014169e61a6ffbed44183ee26a17bf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|338d5b12e521a8d6b1c13b05d7178a61a3de885615f5f896a89f6490298e7de4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fc4c12e005f3a93d481a91c2b434ad4b829563ee6786e8fbb7602004e6c3843f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4dc305cae83ecb204b39a6a7116821b10278dc7b728065a3cae4e6bc509b9349|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3eb6b0a5111cb7716f85a36630491b4c158befa82fe8f7a59abce72da782f89f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|24d876af80c33be37ffd1b1e78332794a74f66b14ef061f97478190d9f48de03|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|568312c7309b004738be1e2a39ca14bf9df5f5fbf74679cbf23f72d3c808d163|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|64afe91b4db0bb9f009eb5fa77f7f83be3e0b7d9fbf40fd15b74c59000218447|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cdc36ff809789c124073ada70598e069fa6c559a80628170ed3890e4c9f1eb3a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e8879860fa944fbab8b6bb45952f85a5d6cd7262eb37618b95eb38513ea971ed|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1979bb3d4e9af46312905faf6d8f4cf027b4939c0831d7b8ecbd9c7a29e9d119|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d296829509f4d6edc18b03c08ff7481d4a7054f6dd658bff1bdca63c53182abe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|da24f9f46cde80e725568127f45d71f06406a07a91001d05921f5cc753fdebb4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aa127c4e6e039a9db5dc7798dbcdab4dd48db26a3046d6e1fb8826b24bde6762|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c05df4cfa679317d1b8b17a550123b15ac7fb96e7cc15096b5628e3d611989a6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5ba935c4cb39f01e2db777ebd48d62b0d1d6265d33a900ee501da9f291a157fd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|68ff0bcce07f0c380c9681cef768d09919cc42b1b1824ca63c2272573018a384|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|acab12a03ed1987a26559b9702e93072f351d3c1b01e1863065773d1bc7f493d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f234722287a0de7d1fbbc5aefd3c84f2b3052e92e93383f3cf46f5a47b6ff55c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|729e9d07427c48f0fcdc78f69581537b87de962f74c31eb04a8a8d363459a08b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|75c2478ff6cd938da162a4a98a4e58be096c2c6178fcde6bc6d7da9614875122|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d3d5547b3ed906c2ec914aa510892096f79bd91497597d513d6e67a3628ccc56|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7425132a34d9bb7d4dbf802ac6b6267722afca58998210f04a3339e91ab16925|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|218cf3ce58c807010545e34ae4671f15c60556ed791ae8e858dace592872655a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d9752c0ce38c329f97a9a2b254b40d8b42bb6fa476594683cb88ab472cf8aba9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|76c5d5f8c1cafca2b47f627592b9ebf0011c920468f7a7a5394c901062549f7f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a745bd670dea7310e699615371657dceb0d7c9d394792f42ffbe078274272730|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a005f90a63aa2dc4c0f3c61e418db6416e8bb861acf18108e0b3417f8776a6ae|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4adcf43974afe64d16edfbff76784acae3486bf4440b72947ab68932bc2dfa71|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8a5afee68e7473e670a93f9991708b718e9233bc1cac71a3d17972b612b473c0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f7ed249b766c679c76c43d1a676122e16a17ac1b1f5a795f52230602e988d011|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8ce276caab68679f5ba004b02f6472e2346e62a1a134d35a31e6a19a20cd719e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3f12aa779cd28c2f7132095226460923f76e4c0939c382a6a63bf462ec380fb9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7116b62d7693d8996b38c04872197c948ce3b3db0711c528302e3469ab0593fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|ee98c548a8754b6b2e74c4c936b48aa2e1ee2e5ba54a73496f802f07fa7d7169|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|03ef159fb6189354b75e02de293c0fec904e3217424cdebeb88109603717bd91|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eac8376614071161368bb3e0d878acfa88695c1ecde443ff18853dc4a8ba3345|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cbeb6ffd19b053d7c04cb15c55061b001dba54f5c523935e0efb06b2b4bd76bd|region.yellowish markup.warning.sublime_linter|32"
+							],
 							"SL.17.region_keys":
 							[
 								"SL.csslint.Highlights.|f31353e6c615f11a7191ec1c255c292cb6b4389a9167f7eb0e0c0af0bf4326ba|region.yellowish markup.warning.sublime_linter|32",
@@ -747,7 +824,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
