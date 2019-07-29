@@ -134,10 +134,6 @@ a {
   margin: 0 auto;
 }
 
-.inner-page .container {
-  width: 940px;
-}
-
 /*.container .visually-hidden { ----------------------По итогу пересмотреть------------------------------
   display: none;
 }*/
@@ -410,7 +406,7 @@ a {
 
 .inner-page h1 {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding: 0;
 
   font-size: 30px;
@@ -440,11 +436,11 @@ a {
 
 .shop-flex-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .filters {
-  margin-right: 20px;
-  width: 220px;
+  width: 180px;
 }
 
 .filters fieldset {
