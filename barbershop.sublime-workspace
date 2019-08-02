@@ -4,16 +4,64 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"d",
+				"div\t<div>"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
 				"padding",
 				"padding-left\tproperty"
 			],
 			[
-				"pa",
-				"padding-top\tproperty"
+				"fle",
+				"flex-direction\tproperty"
 			],
 			[
-				"marg",
-				"margin\tproperty"
+				"fl",
+				"flex-flow\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"flex",
+				"flex-start\talign-items"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"i",
+				"initial\tdisplay"
 			],
 			[
 				"paddi",
@@ -22,10 +70,6 @@
 			[
 				"otline",
 				"outline\tproperty"
-			],
-			[
-				"margin",
-				"margin-bottom\tproperty"
 			],
 			[
 				"space",
@@ -50,10 +94,6 @@
 			[
 				"a",
 				"align-items\tproperty"
-			],
-			[
-				"fle",
-				"flex-start\talign-items"
 			],
 			[
 				"mar",
@@ -94,10 +134,6 @@
 			[
 				"out",
 				"outline-width\tproperty"
-			],
-			[
-				"te",
-				"text-decoration\tproperty"
 			],
 			[
 				"bor",
@@ -158,10 +194,6 @@
 			[
 				"se",
 				"section\t<section>"
-			],
-			[
-				"ma",
-				"main\t<main>"
 			],
 			[
 				"foot",
@@ -232,10 +264,6 @@
 				"errorMessage"
 			],
 			[
-				"i",
-				"inputs"
-			],
-			[
 				"clo",
 				"closeCard"
 			],
@@ -264,10 +292,6 @@
 				"addEventListener"
 			],
 			[
-				"d",
-				"dialog"
-			],
-			[
 				"setup",
 				"setupOverlay"
 			],
@@ -283,7 +307,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9402,
+				"buffer_size": 9409,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -292,7 +316,7 @@
 			"file": "shop.html",
 			"settings":
 			{
-				"buffer_size": 12299,
+				"buffer_size": 11463,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -301,7 +325,7 @@
 			"file": "item.html",
 			"settings":
 			{
-				"buffer_size": 6027,
+				"buffer_size": 4850,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -310,7 +334,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 8299,
+				"buffer_size": 11020,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -438,6 +462,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".item-gallery",
+			"conta",
+			"flex-c",
+			"pagin",
 			"figu",
 			"gallery",
 			"contai",
@@ -502,15 +530,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9402,
+						"buffer_size": 9409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6493,
-								6493
+								352,
+								352
 							]
 						],
 						"settings":
@@ -538,10 +566,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3060.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -550,15 +578,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12299,
+						"buffer_size": 11463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								11463,
+								11463
 							]
 						],
 						"settings":
@@ -583,7 +611,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2290.0,
+						"translation.y": 5370.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -595,15 +623,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6027,
+						"buffer_size": 4850,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								2488,
+								2507
 							]
 						],
 						"settings":
@@ -628,10 +656,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -640,67 +668,89 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8299,
+						"buffer_size": 11020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								10823,
+								10823
 							]
 						],
 						"settings":
 						{
 							"SL.16.region_keys":
 							[
-								"SL.csslint.Highlights.|28ee703c5a9654aee45d270a63c4f961145a657fe5f025ef33ca20d0fe004b9d|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|797fa1e7adea7ebccda770327fb6cea0d34ac2aa37400fa5c6495b29b22a40a8|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|94640e503d3962d1d1e139e94eed651a434593a2176163e920fe05c707a928b8|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|1428ccbe2b3a5ec92a60dcb0829882de2e33ec554e22de0f07ffc2895eabbc5f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|5b4b09eeb8531ca38c5cbceb3e26ef35c1725d891d2a56fd9084c9ff78b112a4|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|ee95a5b236c6219bab1b3b82dd7a1eac96997dbe948a1d25b9aba0a380ff7ce2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|3d6dbe01c5958ff91f621bf10ab5de6086014169e61a6ffbed44183ee26a17bf|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|338d5b12e521a8d6b1c13b05d7178a61a3de885615f5f896a89f6490298e7de4|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|fc4c12e005f3a93d481a91c2b434ad4b829563ee6786e8fbb7602004e6c3843f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|4dc305cae83ecb204b39a6a7116821b10278dc7b728065a3cae4e6bc509b9349|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|3eb6b0a5111cb7716f85a36630491b4c158befa82fe8f7a59abce72da782f89f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|24d876af80c33be37ffd1b1e78332794a74f66b14ef061f97478190d9f48de03|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|568312c7309b004738be1e2a39ca14bf9df5f5fbf74679cbf23f72d3c808d163|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|64afe91b4db0bb9f009eb5fa77f7f83be3e0b7d9fbf40fd15b74c59000218447|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|cdc36ff809789c124073ada70598e069fa6c559a80628170ed3890e4c9f1eb3a|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|e8879860fa944fbab8b6bb45952f85a5d6cd7262eb37618b95eb38513ea971ed|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|1979bb3d4e9af46312905faf6d8f4cf027b4939c0831d7b8ecbd9c7a29e9d119|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|d296829509f4d6edc18b03c08ff7481d4a7054f6dd658bff1bdca63c53182abe|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|da24f9f46cde80e725568127f45d71f06406a07a91001d05921f5cc753fdebb4|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|aa127c4e6e039a9db5dc7798dbcdab4dd48db26a3046d6e1fb8826b24bde6762|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|c05df4cfa679317d1b8b17a550123b15ac7fb96e7cc15096b5628e3d611989a6|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|5ba935c4cb39f01e2db777ebd48d62b0d1d6265d33a900ee501da9f291a157fd|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|68ff0bcce07f0c380c9681cef768d09919cc42b1b1824ca63c2272573018a384|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|acab12a03ed1987a26559b9702e93072f351d3c1b01e1863065773d1bc7f493d|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|f234722287a0de7d1fbbc5aefd3c84f2b3052e92e93383f3cf46f5a47b6ff55c|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|729e9d07427c48f0fcdc78f69581537b87de962f74c31eb04a8a8d363459a08b|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|75c2478ff6cd938da162a4a98a4e58be096c2c6178fcde6bc6d7da9614875122|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|d3d5547b3ed906c2ec914aa510892096f79bd91497597d513d6e67a3628ccc56|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|7425132a34d9bb7d4dbf802ac6b6267722afca58998210f04a3339e91ab16925|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.csslint.Highlights.|218cf3ce58c807010545e34ae4671f15c60556ed791ae8e858dace592872655a|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|d9752c0ce38c329f97a9a2b254b40d8b42bb6fa476594683cb88ab472cf8aba9|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|76c5d5f8c1cafca2b47f627592b9ebf0011c920468f7a7a5394c901062549f7f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|a745bd670dea7310e699615371657dceb0d7c9d394792f42ffbe078274272730|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|a005f90a63aa2dc4c0f3c61e418db6416e8bb861acf18108e0b3417f8776a6ae|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|4adcf43974afe64d16edfbff76784acae3486bf4440b72947ab68932bc2dfa71|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|8a5afee68e7473e670a93f9991708b718e9233bc1cac71a3d17972b612b473c0|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|f7ed249b766c679c76c43d1a676122e16a17ac1b1f5a795f52230602e988d011|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|8ce276caab68679f5ba004b02f6472e2346e62a1a134d35a31e6a19a20cd719e|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|3f12aa779cd28c2f7132095226460923f76e4c0939c382a6a63bf462ec380fb9|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|7116b62d7693d8996b38c04872197c948ce3b3db0711c528302e3469ab0593fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f1dd9cf1d2b3bd2d2e69b3805cb4467c407b722296a127dd6ac6d9d24ed24762|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|18f059caf4820c7ee88425cedba6ff0ebfa2be7c85c929e2821efdf4c40b82bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a615af086bfcd991fa3d8a49c936d7ac5821df6e12822d22de1196148d51be26|region.yellowish markup.warning.sublime_linter|32",
 								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.csslint.Highlights.|ee98c548a8754b6b2e74c4c936b48aa2e1ee2e5ba54a73496f802f07fa7d7169|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|03ef159fb6189354b75e02de293c0fec904e3217424cdebeb88109603717bd91|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|eac8376614071161368bb3e0d878acfa88695c1ecde443ff18853dc4a8ba3345|region.yellowish markup.warning.sublime_linter|32",
-								"SL.csslint.Highlights.|cbeb6ffd19b053d7c04cb15c55061b001dba54f5c523935e0efb06b2b4bd76bd|region.yellowish markup.warning.sublime_linter|32"
+								"SL.csslint.Highlights.|0fa84e1cb0bc93630519c7fa22284c4181601210d98996344cd15a9f3908c5b1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|553023caaa00e57755c4e0c49456473230ae450dbd819baebbd0b0cd82c0a246|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eb328d425a6af5e900ed4093e54bba2629e567287ab3b59df4dc9138af3c1543|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1e0379460edeba09a79f77ec82d07b53822f80e73deb1a0276b188130dccb3da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|097f69e4d1e8ada958cd177b5043efe256094b2ebb089542625f70b5aeb93507|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|58e6b810f295757738209724d4e27fb7b65d8db07151f8ff896f2d2a2805cb6d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d2a05e92ee3a43c27312dc098e20bf89b81a0b6e462e27eb41cc2d335ab406c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3892810bb486ca51345151285c22a0cd70298bb8e4eb5da3425c711205c55aab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|378911f607401fc5fc708961c56c42ae162923f42ea8b7b3a5ff989ee74cd258|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|413349f6003f74557fe073143a34e7d07e53e75382af181b4e9301515a7105bf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|db1d951acb90faa424eb1d74e20d8f842d91d329070f19d161e587304e01e953|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6aa50d5c4207a1dd7f666e3a5786fab5a04241caacae55bdd58a7a594758bd34|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|797fa1e7adea7ebccda770327fb6cea0d34ac2aa37400fa5c6495b29b22a40a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|80183b5c0d5b410c075d7fdf598fcdbae9eb179235c60d829b938ca7d6fb6d81|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c13dff5a2072be5d345cb0ef86a9599d26cd9e12d346bb1f11e1219e5324c889|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2757acc18d286c612981745cd0e6a134575f7f6ee779a377af2ed4fae1c323aa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5782386c8e010e64a0aa2148c0d761a4b9ff23d74b80d1d2d4d6b7dba2da07ca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|98009514efcc12387212b42d29bda4cfde6ad4aa42d917342d4589df957d8089|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a213749af4c13277551ab0b9750aedcec8730e8cbac45960a297f6e413eaa1f6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9c374c1bc5f41a8c2efa1b1f8492e630837bf5d458e39dd6ece7c13faa510f14|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ec88d96c4d04b5dfac85dc85474380bb8bca7d316a917cdc60cde432b6c83a9a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|218cf3ce58c807010545e34ae4671f15c60556ed791ae8e858dace592872655a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fa5beab63772013f641a2f24731b73f849a8e478d51eec60918be8d35409a8ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|351440f402c4331b836024df494a2a247a30db4c5f980bc4fdcb210173ee4613|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f1c655c3014e4b60ad55f330847a4b282408873cc330aeb35949906eea223f83|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|98271e6e0ca3a5031d6aba9115af2c22ed5e903f7eba848b681f740474f49a27|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|93b0c7797b7da0fc3c07f586759294ab56600cdac38ce4a2458b96a883ca1728|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|95ba8d0c3175f1068f07eed6deb714218c6ee00ebb84db197a368ef3a180d9d7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0111d5dcc41fe024a7096b50a478247894a834976ce91b97f9ff9d1a5768f54c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|264ab70624e6bfd2d72175e376a943b1c1b7952557c74bf1ef2aec13b4d40d89|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|48e49d004901f77a7c9c09560020ce8bed926dc1d40697a55aa05b26a58bb5df|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|66ec11588753035deef4681faa0e410fd88f7f96c3c25a04e73af9a50bfced6a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|46bf30f716d61ca470104e5aea61581926a47e356845ee5a4cc1b249ab86a88c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3f3c2cdb4a5d0b426d9ee671c829a485b45282929219c3c3de29c659dc96c3bc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e704046b834053b77cf0c09e4df518974e9a1d21a92f7d7a41be4d6364ad35aa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c71812528ad47873a4760bc492ecdca41326dff9b75c2be804febf6766ea16cd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|350254fa36b57b640c3a4b8afce0cf630d6ab2ad3c51f68ef81a0f7709ab9e07|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|729e9d07427c48f0fcdc78f69581537b87de962f74c31eb04a8a8d363459a08b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2ae8bddbf7785743922b0f4f7b71803eab2970f23eec86d1473b3849fe32173c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9ea5dd03bf6a1653f87074d0038ed2491d145c505058863a47ae67708826a250|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|43fd4b75fc9426f67bc9d3cb8a511c85d1ebb2fe6c4d977efee983c90e686efa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cf04cab3cccf81f6ceb7c46499383427e0cebb4bc44791bd10ae565d4731f19e|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|9ed2f22935a1f3f74dd3daa66060cc1a6486a068eb732a0ff9359b94c5c8cea8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9684d26a1de7cfffdff54a5ba0b4a4a1ea6fcdd498751d2130a8a7b3aff80b1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cdc963cdd4b2ff94ed46020a20506c9eec9d1844497c8e3c09d957dde15cc24e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|90bf29db207d5f0865faef97e72beb8c09e4aac92bcf4812383c2ef80a56d114|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eaba99244ef1f45d78590d4ea1784b249fd38b7d85fb279adcd12009c707dd4b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b1181193946b3f6a9073af0cc341be232c9f1bf6780e61e4d8621052ab977caa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|627195a21ff61fec9d13acdda11dab5ae5a700747bcc83853ef0dd8a643da101|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|948221af0bcebaffa7287a891b941894aa5a8d4fffe2c619560f642dc8629fad|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d09fa3f66f63b44379f1c94afee2409607a7d30d2277b30177eff47a9cb54ce1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b160c229e14a1a2ec05125e6ef214a29ecfeacd4b9f0dbc779d0ab5f961be87e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5b84996c42fa698ff7bbb75fa945987b69d79c3d22019c98d61f66ca5d98197c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aba67b8580068dd2142c666be1a2c5d620b0ebcdefc40b42abe0367d2abb21d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f12a68136ad841d8e936bab03dd03215e6bf19431aff34ed537051b919445182|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3e4d04441fa2a6b987ee333eb3945ed42964d716d007588205bee2f2875452e7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|12f6b0688ed7bcf04d7edff26ffc051f06bec62e2dcbcc8ce6d51fcd01914ce1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ec8774d1e329b1ae2823365585785b9dc4df6c5ebee40142dc8167f1e0d135b6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|399ffa9934e8d11a0a2ad7b56e5fdebb06d154ad1e6676f5f17c2066a12ba657|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a53aa15d1216027a996d2809816acb1c511acc1ee5994f19209082bed75e6317|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ebf6d7bb2e9a7d155cccefda17192383d25e07093e5ad74741b7bcbf0a508aa7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2260f481622413a81dd06df5bb71804889194516a40dfcfeaaa886a35e103833|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bf43ba62e20239464dfb8c9f9122bdb8e24b448393c4b4f1020266279449def3|region.yellowish markup.warning.sublime_linter|32"
 							],
 							"SL.17.region_keys":
 							[
@@ -824,7 +874,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 13920.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
