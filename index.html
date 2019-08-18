@@ -25,7 +25,7 @@
                 <li>
                   <a href="news.html" title="Новости">Новости</a>
                 </li>
-                <li>
+                <li class="current">
                   <a href="price.html" title="Прайс-лист">Прайс-лист</a>
                 </li>
                 <li>
@@ -85,12 +85,10 @@
 
         <section class="gallery">
           <h2>Фотогалерея</h2>
-          <!-- <figure class="gallery-content"> -->
-            <a class="gallery-item" href="#">
-              <img src="img/interier.jpg" width="286" height="164" alt="Фотография интерьера барбершопа 'Бородинский'">
-            </a>
-          <!-- </figure> -->
-          <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+          <a class="gallery-item" href="#">
+            <img src="img/interier.jpg" width="286" height="164" alt="Фотография интерьера барбершопа 'Бородинский'">
+          </a>
+          <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
           <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
         </section>
       </div>
@@ -159,16 +157,22 @@
         </p>
 
         <div class="footer-social">
-          <b>Давайте дружить</b>
+          <b>Давайте дружить!</b>
           <ul class="social-list">
             <li class="social-list-item">
-              <a class="button social-button" href="http://vk.com" aria-label="ВКонтакте">ВКонтакте</a>
+              <a class="button social-button vk" href="http://vk.com" aria-label="ВКонтакте">
+                <span class="visually-hidden">ВКонтакте</span>
+              </a>
             </li>
             <li class="social-list-item">
-              <a class="button social-button" href="http://facebook.com" aria-label="Фейсбук">Фейсбук</a>
+              <a class="button social-button fb" href="http://facebook.com" aria-label="Фейсбук">
+                <span class="visually-hidden">Фейсбук</span>
+              </a>
             </li>
             <li class="social-list-item">
-              <a class="button social-button" href="http://instagramm.com" aria-label="Инстаграм">Инстаграм</a>
+              <a class="button social-button inst" href="http://instagramm.com" aria-label="Инстаграм">
+                <span class="visually-hidden">Инстаграм</span>
+              </a>
             </li>
           </ul>
         </div>
